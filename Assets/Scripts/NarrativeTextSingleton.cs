@@ -27,13 +27,11 @@ public class NarrativeTextSingleton : MonoBehaviour{
     
     public void StartNextDay()
     {
-        int day = DayManagerSingleton.Instance.day;
-        int lastDay = DayManagerSingleton.Instance.lastDay;
         
-        if(day >= lastDay){
+        if(DayManagerSingleton.Instance.day >= DayManagerSingleton.Instance.lastDay){
             nextSceneTransition.FadeImage(SceneManager.GetActiveScene().buildIndex+1); // set the second scene to be the same as the default room but nothing is interactable except the vault door
         }else{
-            day++;
+            DayManagerSingleton.Instance.day++;
             nextSceneTransition.FadeImage(SceneManager.GetActiveScene().buildIndex);
         }
 

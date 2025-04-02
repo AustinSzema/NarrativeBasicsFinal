@@ -23,18 +23,39 @@ public class GrabDetection : MonoBehaviour
         }
     }
 
+    private bool canGrab = true;
+
     private void OnGrab(SelectEnterEventArgs args)
     {
-        Debug.Log($"{gameObject.name} grabbed by {args.interactorObject.transform.name}");
-        if (narrativeSO != null)
+        if (canGrab)
         {
-            NarrativeTextSingleton.Instance.SetText(narrativeSO.description);
+            Debug.Log($"{gameObject.name} grabbed by {args.interactorObject.transform.name}");
+            if (narrativeSO != null)
+            {
+                StaminaMeter.Instance.ReduceStamina(narrativeSO.staminaCost);
+                NarrativeTextSingleton.Instance.SetText(narrativeSO.description);
+            }
         }
+        canGrab = false;
+
     }
 
+    private bool dayIsOver = false;
     private void OnRelease(SelectExitEventArgs args)
     {
-        Debug.Log($"{gameObject.name} released");
+        canGrab = true;
         NarrativeTextSingleton.Instance.ClearText();
+        if (!dayIsOver)
+        {
+            Debug.Log($"{gameObject.name} released");
+     
+            if (StaminaMeter.Instance.stamina <= 0)
+            {
+                canGrab = false;
+                dayIsOver = true;
+                NarrativeTextSingleton.Instance.StartNextDay();   
+            }
+        }
+
     }
 }

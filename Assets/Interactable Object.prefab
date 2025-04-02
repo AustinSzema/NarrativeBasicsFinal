@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 981296482247309290}
   - component: {fileID: 9185595481252754250}
   m_Layer: 0
-  m_Name: Blaster
+  m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

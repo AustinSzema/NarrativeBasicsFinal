@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Guitar
   m_EditorClassIdentifier: 
-  staminaCost: 1
+  staminaCost: 15
   description: Enter object description here

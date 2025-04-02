@@ -1,65 +1,49 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class FadeToColor : MonoBehaviour
 {
-    [SerializeField] private Image imageToFade;
-    [SerializeField] private Color startColor = Color.black;
-    [SerializeField] private Color endColor = new Color(0f, 0f, 0f, 0f);
-    [SerializeField] private float fadeDuration = 1.0f; // Time in seconds
+    [SerializeField] private OVRScreenFade screenFade;
 
-    [SerializeField] private bool fadeOnStart = false;
-    
     private void Start()
     {
-        if(imageToFade == null){
-            imageToFade = gameObject.GetComponent<Image>();
-            if(imageToFade == null)
+        // Auto-find OVRScreenFade if not assigned in Inspector
+        if (screenFade == null)
+        {
+            screenFade = FindObjectOfType<OVRScreenFade>();
+            if (screenFade == null)
             {
-                imageToFade = gameObject.AddComponent<Image>();
-                Debug.LogWarning("No image component found to fade on " + gameObject.name + " FadeToColor script");
+                Debug.LogError("OVRScreenFade not found in the scene! Make sure it's attached to the XR Camera.");
             }
         }
-        if (fadeOnStart)
-        {
-            FadeImage();
-        }
     }
 
+    // Simple Fade to Black
     public void FadeImage()
     {
-        StartCoroutine(Fade());
+        if (screenFade != null)
+        {
+            screenFade.FadeOut();
+        }
     }
+
+    // Fade Out and Load Scene
     public void FadeImage(int index)
     {
-        StartCoroutine(Fade(index));
+        if (screenFade != null)
+        {
+            StartCoroutine(FadeAndLoadScene(index));
+        }
     }
 
-    private IEnumerator Fade()
+    private IEnumerator FadeAndLoadScene(int index)
     {
-        float elapsedTime = 0f;
-        while (elapsedTime < fadeDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            imageToFade.color = Color.Lerp(startColor, endColor, elapsedTime / fadeDuration);
-            yield return null;
-        }
+        screenFade.FadeOut();
+        
+        // Wait for fade to finish before changing scene
+        yield return new WaitForSeconds(screenFade.fadeTime + 0.2f);
 
-        imageToFade.color = endColor;
-    }
-    private IEnumerator Fade(int index)
-    {
-        float elapsedTime = 0f;
-        while (elapsedTime < fadeDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            imageToFade.color = Color.Lerp(startColor, endColor, elapsedTime / fadeDuration);
-            yield return null;
-        }
-
-        imageToFade.color = endColor;
         SceneManager.LoadScene(index);
     }
 }
