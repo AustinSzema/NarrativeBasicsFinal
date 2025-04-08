@@ -3,7 +3,22 @@ guid: 703357ced2f8b014d822f491cd07429a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Brushed Metal
+    second: {fileID: 2100000, guid: 24c623dd6eefcd244b9d47b8c433358b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brushed Metal
+    second: {fileID: 2100000, guid: 5dcecf5af351d0d46bd6cea34f107e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Brushed Metal
+    second: {fileID: 2100000, guid: f69c2e8cb4922b040bd09aab313af41d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

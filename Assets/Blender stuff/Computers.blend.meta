@@ -3,7 +3,42 @@ guid: 55fa0954c9f15c540b4c032b6af3298f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer Material
+    second: {fileID: 2100000, guid: 736641906704f114182ec70d10060662, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer Screen Material
+    second: {fileID: 2100000, guid: 3e67db3a5e0e8664b88c318a6dad5264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keyboard Material
+    second: {fileID: 2100000, guid: 3425af775fda06c4ea415cd577338d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 114939ea2b563384eac5e90901620e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 42d3a2f8c316d134fad98c80a9c83448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouse Button Material
+    second: {fileID: 2100000, guid: eac8c1b5565bc0f4e80d9e312ddd19e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouse Material
+    second: {fileID: 2100000, guid: f34a983ba766976459a1679c47ef6174, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

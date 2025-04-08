@@ -3,7 +3,17 @@ guid: 41f3e91f5eefde94c89c0cad7658fbce
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jar Lid Material
+    second: {fileID: 2100000, guid: 27a4383a5ad28b547a9bba54fb369e02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jar Material
+    second: {fileID: 2100000, guid: ca6db9e47c41f1d4aa7c34685b7fee63, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

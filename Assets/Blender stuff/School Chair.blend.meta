@@ -3,7 +3,17 @@ guid: 1c8d257bbfa9697479f7ff1b33e95f5d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: School Chair Leg Material
+    second: {fileID: 2100000, guid: 2e906d5e57fc42f4eb9eb0a4bbe4be1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: School Chair Seat Material
+    second: {fileID: 2100000, guid: 2cee78fb7466a704e8271c4f8ef4b1a9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

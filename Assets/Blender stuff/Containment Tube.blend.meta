@@ -3,7 +3,17 @@ guid: c9bfd389df6e658488b762028ba2645e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clear Tube Material
+    second: {fileID: 2100000, guid: 3c0536913a195a44f8203bd2204c0064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube Ends Material
+    second: {fileID: 2100000, guid: 2f34074002bb2674b94f5c9da37704b2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

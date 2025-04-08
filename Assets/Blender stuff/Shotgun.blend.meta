@@ -3,7 +3,17 @@ guid: 9ad691bceff50924a833ec6e1f996fc3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shotgun Barrel Material
+    second: {fileID: 2100000, guid: ca65b98b88579d748ba1386d2df48c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shotgun Handle Material
+    second: {fileID: 2100000, guid: 4fb9c4fe55749cf438824fd3f8255e2e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

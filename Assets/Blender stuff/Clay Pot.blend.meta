@@ -3,7 +3,12 @@ guid: 9d2e339564e072d419d650b2d58243ca
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clay Pot Material
+    second: {fileID: 2100000, guid: c44f47e78cee7134fae575c82cb1fb30, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: a7cd9821941c9534fb192c9a3bd1585b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grenade Launcher Metal
+    second: {fileID: 2100000, guid: a83f74b221278614abe1e86f9aac2687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grenade Launcher Wood
+    second: {fileID: 2100000, guid: d8c82a2d62e9bc34d8b884e87092e335, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

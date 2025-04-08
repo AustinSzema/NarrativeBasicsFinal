@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Guitar
   m_EditorClassIdentifier: 
   staminaCost: 15
-  description: Enter object description here
+  description: An old acoustic guitar. It is very out of tune

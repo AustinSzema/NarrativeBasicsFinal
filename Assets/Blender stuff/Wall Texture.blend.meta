@@ -3,7 +3,12 @@ guid: a8382a8b51ebdae4a91cefb334a199c6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hospital Wall Material
+    second: {fileID: 2100000, guid: 07fd1d184624fe84db2b76237165961c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

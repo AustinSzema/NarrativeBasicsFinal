@@ -3,7 +3,32 @@ guid: 53ae47641815ec64cab3746be8b62b96
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Checker
+    second: {fileID: 2100000, guid: 7bd65c1352eea6744b7cbf6119ec2200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Wood Material
+    second: {fileID: 2100000, guid: 802a57c31904d274fb80abb396c45bba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Wood Material
+    second: {fileID: 2100000, guid: 894da44f405e4114daa903aad9ea7f96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Checker
+    second: {fileID: 2100000, guid: 9775a943ff975d7429927a80de1b22b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Rim Material
+    second: {fileID: 2100000, guid: b33ae8d2a10b5714d9588e1e4fa1e87f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

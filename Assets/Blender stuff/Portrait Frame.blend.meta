@@ -3,7 +3,27 @@ guid: 0be3d415ccb603d4ea767890d7b0b6ec
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portrait Inner Frame Material
+    second: {fileID: 2100000, guid: a4f604dd935882844bc2b3f2d3447437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portrait Material
+    second: {fileID: 2100000, guid: 53d4ebc41ecf3b14f8c2829e12452abc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portrait Middle Frame Material
+    second: {fileID: 2100000, guid: 3e3c0cb9781702a40b2aa73be5a120bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portrait Outer Frame Material
+    second: {fileID: 2100000, guid: 9ec2a44066b453e4da1c12ac229cab40, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

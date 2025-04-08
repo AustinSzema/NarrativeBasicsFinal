@@ -3,7 +3,17 @@ guid: 25a397429aa9637469f929e82930c52f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Knob Material
+    second: {fileID: 2100000, guid: 0ab4cd05c606c904c848c3c36857be11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden Door Material
+    second: {fileID: 2100000, guid: 13f7e4d4cce80864bb5ba42cfcdb5c81, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

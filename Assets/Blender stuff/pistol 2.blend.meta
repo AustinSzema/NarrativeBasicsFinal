@@ -3,7 +3,22 @@ guid: 370685cde8ca1844eb76f7c5a8760201
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol Chamber Material
+    second: {fileID: 2100000, guid: 51121be65c47a604b9922ffcc5a28f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol Handle Material
+    second: {fileID: 2100000, guid: 786f15d78689adc4b8540d3dc551e932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol Trigger Material
+    second: {fileID: 2100000, guid: 94f97626300933d4d9f95a1b81bb93f7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

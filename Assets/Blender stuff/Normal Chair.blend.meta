@@ -3,7 +3,17 @@ guid: 2d7c171cec8652241a295f0087792548
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Normal Chair Legs Material
+    second: {fileID: 2100000, guid: 65bc8df6b102cb94fbc9a29e7cafaae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Normal Chair Seat Material
+    second: {fileID: 2100000, guid: a9134cdc883ba484b9fb7b14458c32b6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: 3ccf2e2a3d06a7b468c7fcaabd20d76e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walkie Talkie Material
+    second: {fileID: 2100000, guid: 1ebf421e207c2e84f90a518be03cd1e0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

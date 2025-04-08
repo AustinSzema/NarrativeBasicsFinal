@@ -3,7 +3,22 @@ guid: 824e8356beeaecd459ca7ab413f79b04
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Long Table Feet Material
+    second: {fileID: 2100000, guid: 613bd376775066949ba3caac7bc59224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Long Table Frame Material
+    second: {fileID: 2100000, guid: dd14bbbdb3b0280458dc81a92ce73dc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Long Table Wood Material
+    second: {fileID: 2100000, guid: 46fb733536051004494106eb7a8f08c5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,22 @@ guid: 720d209c32f3ad94aa35f92755c9a368
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis Racket Frame Material
+    second: {fileID: 2100000, guid: a3d4e595673fcd646a808f1a6000c877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis Racket Grip Material
+    second: {fileID: 2100000, guid: 8b392c8bebde39a4294e71d518a5e11d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis Racket Wire Material
+    second: {fileID: 2100000, guid: b5be7871d93a91e4ca33831c758bc513, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

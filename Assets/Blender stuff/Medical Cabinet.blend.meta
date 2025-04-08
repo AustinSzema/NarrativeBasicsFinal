@@ -3,7 +3,17 @@ guid: 96af2ddc7affc534aa4f83d8755f5706
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical Cabinet Material
+    second: {fileID: 2100000, guid: 48eb66bd4fcd0194e88387af7b78f68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical Cabinet Stuff Material
+    second: {fileID: 2100000, guid: b595607c2dfdf464f8babc9543dda316, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

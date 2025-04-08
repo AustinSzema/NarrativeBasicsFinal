@@ -3,7 +3,17 @@ guid: 12b483318e9115947923bb20aae5440b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flashlight Cone Material
+    second: {fileID: 2100000, guid: 30eb36f606d05d14a8700bf4b019fc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flashlight Metal Material
+    second: {fileID: 2100000, guid: 6dae5d18095d7204d98a557b1c628e02, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

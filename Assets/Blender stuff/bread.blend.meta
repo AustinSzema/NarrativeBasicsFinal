@@ -3,7 +3,17 @@ guid: e7d184407f74c0b4ab0a8b5330a0a4e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bread Loaf Inside
+    second: {fileID: 2100000, guid: e75a468953d8b8c4e88b2cabf6c11b04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bread Loaf Material
+    second: {fileID: 2100000, guid: 78af47a66db7eac448a9b897f4d69edb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
