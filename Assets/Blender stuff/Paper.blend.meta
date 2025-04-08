@@ -3,7 +3,22 @@ guid: 9dd114254a7553342a57c8b76b94ec5e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper Line Material
+    second: {fileID: 2100000, guid: 956a10a07395b1f49b6c05556c80fec5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper Margin Material
+    second: {fileID: 2100000, guid: f450edb36bb45714b8880f15ddc7610b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper Material
+    second: {fileID: 2100000, guid: dc58b3c22e45e21459aedbb65949b9df, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
