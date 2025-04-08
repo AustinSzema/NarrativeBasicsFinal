@@ -16,8 +16,8 @@ public class NarrativeTextSingleton : MonoBehaviour{
         Instance = this;
     }
 
-    public void SetText(string txt){
-        narrativeText.text = txt;
+    public void SetText(string txt, int staminaCost){
+        narrativeText.text = txt + "\n \nCosts " + staminaCost + " stamina";
         audioSource.PlayOneShot(pickupItemClip);
     }
 

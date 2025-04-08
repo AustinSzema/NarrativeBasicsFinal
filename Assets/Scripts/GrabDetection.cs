@@ -33,7 +33,7 @@ public class GrabDetection : MonoBehaviour
             if (narrativeSO != null)
             {
                 StaminaMeter.Instance.ReduceStamina(narrativeSO.staminaCost);
-                NarrativeTextSingleton.Instance.SetText(narrativeSO.description);
+                NarrativeTextSingleton.Instance.SetText(narrativeSO.description, narrativeSO.staminaCost);
             }
         }
         canGrab = false;
