@@ -3,7 +3,27 @@ guid: 0b9e2b1ba1d1bfe499c2076360212dc8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BabyDiaperMaterial
+    second: {fileID: 2100000, guid: b9df7347a7d54654ebdaf16bebfe52f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BabyEyeMaterial
+    second: {fileID: 2100000, guid: 7d68d7e2e78d9ef428514232a307f893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BabyPupilMaterial
+    second: {fileID: 2100000, guid: 7c9875438d8b96d4fbff8d034c4949f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BabySkinMaterial
+    second: {fileID: 2100000, guid: 65309046dd3cfdb4b9cc10d2fdd45527, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
