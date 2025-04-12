@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: 4068373912626513877, guid: a7c80af65ae031c4fb8e3b732b78928d, type: 3}
+  m_Mesh: {fileID: 2797687578962592920, guid: 6dbd6d21cd8e699439df6f76a4400991, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,8 +65,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e75a468953d8b8c4e88b2cabf6c11b04, type: 2}
-  - {fileID: 2100000, guid: 78af47a66db7eac448a9b897f4d69edb, type: 2}
+  - {fileID: 2100000, guid: 032633a71868dbd4486a86d73ad619c3, type: 2}
+  - {fileID: 2100000, guid: 56252dcdf21a21940897ca9479b3e90e, type: 2}
+  - {fileID: 2100000, guid: c5ff5c7053e9f024ebffceafd92cfe86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,8 +108,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.17442006, y: 0.14896339, z: 0.043200415}
-  m_Center: {x: 0.000044628978, y: 0.0010422468, z: 0.0000000037252903}
+  m_Size: {x: 0.15473726, y: 0.11018771, z: 0.006125044}
+  m_Center: {x: 0.0005052015, y: -0.0065256245, z: -0.00027809117}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +123,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Bread Slice 1
+  m_Name: Clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

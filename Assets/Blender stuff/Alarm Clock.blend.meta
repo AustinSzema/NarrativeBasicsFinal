@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ede6e1c0ffb1e7f4b87934850d7f25fb
+guid: fefd84c78d0eb2c49b992472a32cc7be
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,38 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Brick Material
-    second: {fileID: 2100000, guid: b244a022aaee2a04f905b0c553f35172, type: 2}
+      name: Alarm Clock Bell Material
+    second: {fileID: 2100000, guid: d17846b8d895b4b439a394bb72128e44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alarm Clock Bell Post Material
+    second: {fileID: 2100000, guid: e5e96b80d12354a4eb35d42e5b25adca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alarm Clock Button Material
+    second: {fileID: 2100000, guid: 3ef3c1c60bc525149a1724e542453a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alarm Clock Face Material
+    second: {fileID: 2100000, guid: 4bf3a228078c71242a85f1780c521fda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alarm Clock Feet Material
+    second: {fileID: 2100000, guid: 685fbf4c154109641a2c07f996146547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alarm Clock Hand Color
+    second: {fileID: 2100000, guid: bb660e61404ccdf42b61fc3804af8474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alarm Clock Outer Material
+    second: {fileID: 2100000, guid: 3acb06ac190b3bc4bb60d36ef3e115e4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
