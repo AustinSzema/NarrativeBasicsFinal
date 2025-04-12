@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c52328be847a874dbd6953f5dcfd90f
+guid: 391ff65c966d52149919bd244f6a3609
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mug Liquid Material
-    second: {fileID: 2100000, guid: fbd250f65d15fd645ac3c1a65e40eebd, type: 2}
+      name: Envelope Line Material
+    second: {fileID: 2100000, guid: 9a89080a6dcefa046a52fb2a5f65d944, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mug Material
-    second: {fileID: 2100000, guid: 7e5b69e85d3d67248832e1369d00af79, type: 2}
+      name: Envelope Paper Material
+    second: {fileID: 2100000, guid: 67337c43f497c0949813fc219aa2dec9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -24,7 +24,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -109,7 +109,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

@@ -3,7 +3,17 @@ guid: cc468451e4abb11498a802506df036cc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fedora Brim Material
+    second: {fileID: 2100000, guid: 6f6ab98c7a5285e48a800b576eb942b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fedora Material
+    second: {fileID: 2100000, guid: d2d322f99e85cf24ba26a45b8a9ded35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
