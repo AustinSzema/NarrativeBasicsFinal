@@ -3,7 +3,17 @@ guid: 12a7d5cd815fd03408e3178aa31d1fe9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mug Liquid Material
+    second: {fileID: 2100000, guid: b7c3271ce4a656a479bdde434ca87fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mug Material
+    second: {fileID: 2100000, guid: 23e88c68d38185d4693d3342824484a9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

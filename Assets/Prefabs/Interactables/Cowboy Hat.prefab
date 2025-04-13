@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: -7219886339314900476, guid: 12a7d5cd815fd03408e3178aa31d1fe9, type: 3}
+  m_Mesh: {fileID: 8978676946143468326, guid: fd8354c4fa41d6c46854e10251823a00, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,8 +65,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 23e88c68d38185d4693d3342824484a9, type: 2}
-  - {fileID: 2100000, guid: b7c3271ce4a656a479bdde434ca87fa2, type: 2}
+  - {fileID: 2100000, guid: d0491b81abc7521419b323972963246a, type: 2}
+  - {fileID: 2100000, guid: b7df42dd661db9f4eb0d789051241daa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,8 +107,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.15238413, y: 0.10459689, z: 0.10392694}
-  m_Center: {x: -0.024228606, y: -0.0030041449, z: -0.0000000055879354}
+  m_Size: {x: 0.23907599, y: 0.08342853, z: 0.3001749}
+  m_Center: {x: 0, y: 0.0020386036, z: -0.0015161559}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Mug
+  m_Name: Cowboy Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,7 +354,7 @@ Transform:
   m_GameObject: {fileID: 4719401540490956496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0904, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

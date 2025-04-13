@@ -1,44 +1,14 @@
 fileFormatVersion: 2
-guid: 9724e29ee420fd04cb680e415909b37f
+guid: fdba8ef684dc15b4189f9bb2cf0e1b35
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Guitar Head Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Guitar Inside Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Guitar Neck Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Guitar Peg Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Guitar Rim Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Guitar String Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Guitar Wood Material
-    second: {fileID: 2100000, guid: ccfdb89eed2c60148bbc6a5de34d9888, type: 2}
+      name: Bowl Material
+    second: {fileID: 2100000, guid: c2a1c4dc9fa13ad43b0d2d3165a45786, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -49,10 +19,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -75,6 +43,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -102,6 +71,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -134,6 +104,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
