@@ -3,7 +3,17 @@ guid: d7d1eeb474d23d745af7ed0b77078ad4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Open Cardboard Box Material
+    second: {fileID: 2100000, guid: 792cb0fa177dbe24f9adfa615727c1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Open Cardboard Box Tape Material
+    second: {fileID: 2100000, guid: affcd57db782eb848824c8009550b403, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
