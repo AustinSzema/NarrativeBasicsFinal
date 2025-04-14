@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: -1034677360533345543, guid: a7cd9821941c9534fb192c9a3bd1585b, type: 3}
+  m_Mesh: {fileID: 3814378201483603881, guid: 9ad691bceff50924a833ec6e1f996fc3, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,8 +65,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d8c82a2d62e9bc34d8b884e87092e335, type: 2}
-  - {fileID: 2100000, guid: a83f74b221278614abe1e86f9aac2687, type: 2}
+  - {fileID: 2100000, guid: 4fb9c4fe55749cf438824fd3f8255e2e, type: 2}
+  - {fileID: 2100000, guid: ca65b98b88579d748ba1386d2df48c63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,8 +107,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.078379184, y: 0.26960424, z: 1.15179}
-  m_Center: {x: 0.00000012479722, y: 0.023555934, z: -0.04083562}
+  m_Size: {x: 0.08351304, y: 0.18504557, z: 0.58127004}
+  m_Center: {x: -0.00000033527613, y: 0.003502909, z: 0.21532711}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Grenade Launcher
+  m_Name: Shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,7 +354,7 @@ Transform:
   m_GameObject: {fileID: 4719401540490956496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.066, z: -0.221}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

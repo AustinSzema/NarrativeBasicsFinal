@@ -1,9 +1,44 @@
 fileFormatVersion: 2
-guid: 4e8caa43f5cb87b4caa656ebfcd8b97f
+guid: ff1a41c66db6f614c8a69c9a8624f7f5
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Antenna Material
+    second: {fileID: 2100000, guid: 91bd37cc4f3d8434d9ddf51d8961a502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Button Material
+    second: {fileID: 2100000, guid: 17f67e9827ffff644ba3d1f6b670abb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Face Material
+    second: {fileID: 2100000, guid: 02b83205d5be2fa43b88475d000b6d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Feet Material
+    second: {fileID: 2100000, guid: 5e2a510fa42a3a9498bdb3eb5b79d8d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Knob Material
+    second: {fileID: 2100000, guid: b437ae265c620994a912be1867c64559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Knob Rim Material
+    second: {fileID: 2100000, guid: d5fcf7931cb9a0342b83e4ec91bc3a84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio Material
+    second: {fileID: 2100000, guid: 815b115c7f32a8d4d8db78f36b30f71b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -14,10 +49,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -40,6 +73,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -67,6 +101,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,6 +134,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

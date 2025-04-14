@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8902087899965441302}
   - component: {fileID: 4979717642137464127}
   - component: {fileID: 8859384184604112455}
-  - component: {fileID: 2391529774159367266}
+  - component: {fileID: 981296482247309290}
+  - component: {fileID: 1785259713690936909}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -41,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: -1034677360533345543, guid: a7cd9821941c9534fb192c9a3bd1585b, type: 3}
+  m_Mesh: {fileID: 4762275591432425103, guid: 720d209c32f3ad94aa35f92755c9a368, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,8 +66,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d8c82a2d62e9bc34d8b884e87092e335, type: 2}
-  - {fileID: 2100000, guid: a83f74b221278614abe1e86f9aac2687, type: 2}
+  - {fileID: 2100000, guid: b5be7871d93a91e4ca33831c758bc513, type: 2}
+  - {fileID: 2100000, guid: a3d4e595673fcd646a808f1a6000c877, type: 2}
+  - {fileID: 2100000, guid: 8b392c8bebde39a4294e71d518a5e11d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,7 +90,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2391529774159367266
+--- !u!65 &981296482247309290
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,8 +109,29 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.078379184, y: 0.26960424, z: 1.15179}
-  m_Center: {x: 0.00000012479722, y: 0.023555934, z: -0.04083562}
+  m_Size: {x: 0.02829638, y: 0.18931836, z: 0.028296383}
+  m_Center: {x: -0.000000033527613, y: 0.007892907, z: -0.000000030733645}
+--- !u!65 &1785259713690936909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413091905937147238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.23939309, y: 0.43726498, z: 0.025000013}
+  m_Center: {x: -0.00016474724, y: 0.31610462, z: -0.00000020116568}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +145,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Grenade Launcher
+  m_Name: Tennis Racket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,7 +377,7 @@ Transform:
   m_GameObject: {fileID: 4719401540490956496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.066, z: -0.221}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
