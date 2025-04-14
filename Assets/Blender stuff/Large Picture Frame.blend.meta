@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Large Picture Frame Material
+    second: {fileID: 2100000, guid: a1f6f856e4e781743bcace765cccd764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Large Picture Frame Picture Material
+    second: {fileID: 2100000, guid: 9399be35352a5b242bbc372d8370c53f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Picture Frame Material
     second: {fileID: 2100000, guid: ab09f2cd86314e644bdd72771d1d370f, type: 2}
   - first:
