@@ -8,6 +8,10 @@ public class GrabDetection : MonoBehaviour
 
     public NarrativeSO narrativeSO;
 
+    public bool isTheRadio = false;
+
+    public AudioSource audioSource;
+
     private void Awake()
     {
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
@@ -22,6 +26,12 @@ public class GrabDetection : MonoBehaviour
         if (narrativeSO == null)
         {
             Debug.LogWarning("NarrativeSO is null");
+        }
+
+        if (audioSource == null && isTheRadio)
+        {
+            Debug.LogWarning(gameObject.name);
+            Debug.LogWarning("is either falsely marked as a radio, or the radio is missing an audioSource");
         }
     }
 
@@ -46,6 +56,7 @@ public class GrabDetection : MonoBehaviour
             }
         }
         canGrab = false;
+        audioSource.Play();
 
     }
 
@@ -65,6 +76,7 @@ public class GrabDetection : MonoBehaviour
                 NarrativeTextSingleton.Instance.StartNextDay();   
             }
         }
+        audioSource.Stop();
 
     }
 

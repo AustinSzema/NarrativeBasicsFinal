@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
-  m_Name: Family Picture
+  m_Name: WorsePistol
   m_EditorClassIdentifier: 
-  staminaCost: 1
-  description: A picture frame with a lovely photo in it. On the back, there are
-    the names. "Jess and Marie M."
+  staminaCost: 5
+  description: Took a theater course in college, propmaster let me keep it...

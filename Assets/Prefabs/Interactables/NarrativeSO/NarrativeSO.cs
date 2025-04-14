@@ -11,4 +11,5 @@ public class NarrativeSO : ScriptableObject
         return "Click to inspect\nStamina cost: " + staminaCost;
     }
 
+    public bool isRadio = false;
 }
