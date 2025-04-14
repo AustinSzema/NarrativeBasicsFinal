@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8902087899965441302}
   - component: {fileID: 4979717642137464127}
   - component: {fileID: 8859384184604112455}
-  - component: {fileID: 9207168605008161005}
+  - component: {fileID: 981296482247309290}
+  - component: {fileID: 1785259713690936909}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -41,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: -4119317738140548247, guid: e4260d7f87c169346921b20fbd1b2e8d, type: 3}
+  m_Mesh: {fileID: 8164388750953057965, guid: 592b02156922f544fb95599140cd4d9d, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,7 +66,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4e3cf6ed7721c440967c794cd28b0f5, type: 2}
+  - {fileID: 2100000, guid: 56efec15fae13894680656dd3d850284, type: 2}
+  - {fileID: 2100000, guid: d5a8da32b5067094c9d8bf34cd1a49e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,7 +89,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9207168605008161005
+--- !u!65 &981296482247309290
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,8 +108,29 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.10000005, y: 0.15240002, z: 0.1}
-  m_Center: {x: 0, y: -0.004297167, z: -0.000000011175871}
+  m_Size: {x: 0.02829638, y: 0.18748006, z: 0.028296383}
+  m_Center: {x: -0.000000033527613, y: -0.023739353, z: -0.000000030733645}
+--- !u!65 &1785259713690936909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413091905937147238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.038448103, y: 0.04241912, z: 0.12445075}
+  m_Center: {x: 0, y: 0.08782583, z: 0.0043982156}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +144,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Cup
+  m_Name: Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

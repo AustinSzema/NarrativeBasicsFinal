@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 0a68184ea149ca74ebf9f3f91b536b66
+guid: 2c7b88074d6830c4bbfd35f45e66a2f8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas Mask Filter Material
+    second: {fileID: 2100000, guid: b3cae1b625c09094aa0f05a806e62d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas Mask Lens Inner Material
+    second: {fileID: 2100000, guid: aed14f995edfb0344bedb47a3fb7a25e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas Mask Lens Outer Material
+    second: {fileID: 2100000, guid: 8699cc17cf72fdc45b6c10419b7c0600, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas Mask Material
+    second: {fileID: 2100000, guid: d0f2ce2a0e342de4aab57cdada28f613, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

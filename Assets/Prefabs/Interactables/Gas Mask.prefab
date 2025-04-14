@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8902087899965441302}
   - component: {fileID: 4979717642137464127}
   - component: {fileID: 8859384184604112455}
-  - component: {fileID: 9207168605008161005}
+  - component: {fileID: 3343698998051104124}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: -4119317738140548247, guid: e4260d7f87c169346921b20fbd1b2e8d, type: 3}
+  m_Mesh: {fileID: -4869880940664391737, guid: 2c7b88074d6830c4bbfd35f45e66a2f8, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,7 +65,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4e3cf6ed7721c440967c794cd28b0f5, type: 2}
+  - {fileID: 2100000, guid: d0f2ce2a0e342de4aab57cdada28f613, type: 2}
+  - {fileID: 2100000, guid: b3cae1b625c09094aa0f05a806e62d75, type: 2}
+  - {fileID: 2100000, guid: 8699cc17cf72fdc45b6c10419b7c0600, type: 2}
+  - {fileID: 2100000, guid: aed14f995edfb0344bedb47a3fb7a25e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,8 +90,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9207168605008161005
-BoxCollider:
+--- !u!136 &3343698998051104124
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,9 +108,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.10000005, y: 0.15240002, z: 0.1}
-  m_Center: {x: 0, y: -0.004297167, z: -0.000000011175871}
+  serializedVersion: 2
+  m_Radius: 0.09
+  m_Height: 0.25992242
+  m_Direction: 1
+  m_Center: {x: 0.0016336031, y: 0.0048231035, z: 0.00066791475}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +126,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Cup
+  m_Name: Gas Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

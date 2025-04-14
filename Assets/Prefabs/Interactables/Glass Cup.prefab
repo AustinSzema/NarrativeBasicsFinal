@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8902087899965441302}
   - component: {fileID: 4979717642137464127}
   - component: {fileID: 8859384184604112455}
-  - component: {fileID: 9207168605008161005}
+  - component: {fileID: 4067220460664493664}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413091905937147238}
-  m_Mesh: {fileID: -4119317738140548247, guid: e4260d7f87c169346921b20fbd1b2e8d, type: 3}
+  m_Mesh: {fileID: -2420219506306010081, guid: c565d5a676148614da5e7936c481d724, type: 3}
 --- !u!23 &8859384184604112455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,7 +65,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4e3cf6ed7721c440967c794cd28b0f5, type: 2}
+  - {fileID: 2100000, guid: 37cf50ce91adda0408f5d0b98baa99a7, type: 2}
+  - {fileID: 2100000, guid: d3366ace98b18794bb43140419a2749f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,7 +88,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9207168605008161005
+--- !u!65 &4067220460664493664
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,8 +107,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.10000005, y: 0.15240002, z: 0.1}
-  m_Center: {x: 0, y: -0.004297167, z: -0.000000011175871}
+  m_Size: {x: 0.20169064, y: 0.11469916, z: 0.15967181}
+  m_Center: {x: -0.011026051, y: 0.004720621, z: -0.00005060807}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +122,7 @@ GameObject:
   - component: {fileID: 7071319278297426613}
   - component: {fileID: 6768848606982199352}
   m_Layer: 0
-  m_Name: Cup
+  m_Name: Glass Cup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
