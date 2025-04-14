@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15a2ff9c962eac044af9fe092c88fa3e
+guid: b500c5615331d4c47a9a9f7bb07029a8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Picture Frame Hinge Material
+    second: {fileID: 2100000, guid: 7ca5b6f308f8b5d47a67884ff168a949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Picture Frame Material
     second: {fileID: 2100000, guid: ab09f2cd86314e644bdd72771d1d370f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture Frame Picture Material
+    second: {fileID: 2100000, guid: b5bf9f9c7c63a5d428206dc328a2f9bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture Frame Stand Material
+    second: {fileID: 2100000, guid: edeb1ec7aaf89d14683bba16f5f42794, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

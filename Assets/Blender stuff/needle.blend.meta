@@ -3,7 +3,22 @@ guid: 569797f04df41f94dbba45a4852e6128
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Needle Cap Material
+    second: {fileID: 2100000, guid: 6a668de0d3338ed4aa55eedff661615a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Needle Metal Material
+    second: {fileID: 2100000, guid: 992d933481035bc48a5c7691b967fb9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Needle Plastic Material
+    second: {fileID: 2100000, guid: bf4de65ab2b4c69429e3b9de2fc0fcd7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
