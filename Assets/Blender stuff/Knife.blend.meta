@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 3815f4081b71eb342b500382978db133
+guid: 9830046396fb8b641a29e569fc454503
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knife Blade Material
+    second: {fileID: 2100000, guid: a7f13fb77f8517c48af8391b4cdff02c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knife Handle Material
+    second: {fileID: 2100000, guid: c3c9955f74166574a950ee4823c808ac, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

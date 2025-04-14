@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6879fe00f37e4844587d39a4bfaf5377
+guid: edf5f451564a6d24b9e63c61b1676c7f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Letter Opener Handle Material
-    second: {fileID: 2100000, guid: 5a68d44e936c2264e9525c69ec271b14, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Letter Opener Metal Material
-    second: {fileID: 2100000, guid: 1060f5aeb40b66542add3ecf7560359b, type: 2}
+      name: Hard Hat Material
+    second: {fileID: 2100000, guid: 1888303aac8687d409c3fdb018015e65, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

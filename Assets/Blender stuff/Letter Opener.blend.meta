@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 0071791b339cda24cb88231aa027db45
+guid: ca61dcf15b5042e42b943f85c0e8962a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Letter Opener Handle Material
+    second: {fileID: 2100000, guid: 51176e9aae4e1be41b969a9fd0b3f8ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Letter Opener Metal Material
+    second: {fileID: 2100000, guid: b58ead662cf54ab49bf4fafb0151c647, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
