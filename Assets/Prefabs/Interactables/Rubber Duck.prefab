@@ -108,8 +108,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 12.525394
-  m_Center: {x: 0, y: 2.198172, z: -1.1849213}
+  m_Radius: 0.040876523
+  m_Center: {x: 0, y: 0.0068472885, z: -0.0039497316}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +330,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   narrativeSO: {fileID: 11400000, guid: 08c8d9cc694f50947b795aa32d7e37d3, type: 2}
+  isTheRadio: 0
+  audioSource: {fileID: 0}
 --- !u!1 &4719401540490956496
 GameObject:
   m_ObjectHideFlags: 0
