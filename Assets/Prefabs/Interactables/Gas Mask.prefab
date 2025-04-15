@@ -332,7 +332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bdcea577a8d0964887c652938e2ce5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  narrativeSO: {fileID: 11400000, guid: 08c8d9cc694f50947b795aa32d7e37d3, type: 2}
+  narrativeSO: {fileID: 11400000, guid: c8a7951caab84c44a8eeed678347b97b, type: 2}
+  isTheRadio: 0
+  audioSource: {fileID: 0}
 --- !u!1 &4719401540490956496
 GameObject:
   m_ObjectHideFlags: 0

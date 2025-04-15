@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Rifle
   m_EditorClassIdentifier: 
-  staminaCost: 5
+  staminaCost: 10
   description: For hunting, didn't keep ammo for it around. Unsafe around kids. And
     I didn' think I'd need it.
+  isRadio: 0

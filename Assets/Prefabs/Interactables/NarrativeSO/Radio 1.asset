@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Radio 1
   m_EditorClassIdentifier: 
-  staminaCost: 4
+  staminaCost: 20
   description: '*EMERGENCY TONE* "This is an emergency broadcast. A nuclear bomb
     has devastated the area. Atmospheric radiation levels have reached 10,000 millirems.
     Radiaton poisoning is life threatening and is fatal within weeks. Seek Shelter
     immediately."'
+  isRadio: 1

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Candle
   m_EditorClassIdentifier: 
-  staminaCost: 1
-  description: A lit candle. You wonder how who lit it.
+  staminaCost: 2
+  description: A lit candle. I wonder how it stays lit
+  isRadio: 0

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Magazine
   m_EditorClassIdentifier: 
-  staminaCost: 3
+  staminaCost: 5
   description: A magazine with the headline "President declares war on all foreign
     countries"
+  isRadio: 0

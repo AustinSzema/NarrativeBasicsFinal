@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: WorsePistol
   m_EditorClassIdentifier: 
   staminaCost: 5
-  description: Took a theater course in college, propmaster let me keep it...
+  description: This one never worked
+  isRadio: 0

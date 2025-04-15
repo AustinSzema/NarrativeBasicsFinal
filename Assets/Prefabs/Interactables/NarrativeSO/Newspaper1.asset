@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Newspaper1
   m_EditorClassIdentifier: 
-  staminaCost: 5
+  staminaCost: 15
   description: '"Entire Countries decimated, as
 
     the death toll rises to 750
     million."'
+  isRadio: 0

@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Coffee
   m_EditorClassIdentifier: 
   staminaCost: 4
-  description: A cup of coffee. It's cold and slightly bitter
+  description: A cup of coffee. It's cold and slightly bitter. I don't know what
+    I'm saving the last sip for.
+  isRadio: 0

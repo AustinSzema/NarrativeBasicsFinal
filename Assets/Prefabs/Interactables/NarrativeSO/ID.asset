@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ID
   m_EditorClassIdentifier: 
   staminaCost: 5
-  description: Your License. You get the feeling you're not going to be doing much
-    driving.
+  description: My License. I get the feeling you're not going to be doing much driving.
+  isRadio: 0

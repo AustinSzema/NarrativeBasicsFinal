@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Paper 2
   m_EditorClassIdentifier: 
-  staminaCost: 2
+  staminaCost: 5
   description: A piece of paper with scribbles on it. It looks like a kid was drawing
     on it
+  isRadio: 0

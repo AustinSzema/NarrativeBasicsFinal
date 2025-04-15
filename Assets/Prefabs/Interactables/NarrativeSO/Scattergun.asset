@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Scattergun
   m_EditorClassIdentifier: 
-  staminaCost: 5
+  staminaCost: 10
   description: A break action shotgun. The last shell was spent weeks ago.
+  isRadio: 0

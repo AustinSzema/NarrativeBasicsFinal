@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Newspaper2
   m_EditorClassIdentifier: 
-  staminaCost: 5
+  staminaCost: 15
   description: "\"Experts say we\u2019ve reached a point\nof no return. Citizens
     in Denial.\""
+  isRadio: 0

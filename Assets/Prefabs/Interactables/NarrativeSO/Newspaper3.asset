@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272efb82195029e4ba734a470abec0bf, type: 3}
   m_Name: Newspaper3
   m_EditorClassIdentifier: 
-  staminaCost: 5
+  staminaCost: 15
   description: "\"Experts say global war on the horizon. President assures nation
     that\nit\u2019s essential for the sake of security.\"\n\nThey stopped printing
     after this one"
+  isRadio: 0
