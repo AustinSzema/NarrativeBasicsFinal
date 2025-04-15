@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-guid: 3ebe2c0848d6f3f4ea0970f3cc583bee
+guid: bb4f424cb6af5f0429843932f03b7fbb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Vault Door Bolts Material
-    second: {fileID: 2100000, guid: 9792828fd6ecd5241a3fed9bca127825, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Vault Door Inner Material
-    second: {fileID: 2100000, guid: 9fe7379c2f9a41844910cc2bc8df5134, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Vault Door Outer Material
-    second: {fileID: 2100000, guid: 1d34a1b64d3053d48bc99abcc4621b50, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Vault Door Wheel Material
-    second: {fileID: 2100000, guid: 6120323c2e7b405409dc71fa6a5ac1b5, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
