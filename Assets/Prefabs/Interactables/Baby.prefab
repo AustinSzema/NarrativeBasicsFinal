@@ -109,8 +109,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3571911, y: 2.917245, z: 0.846434}
-  m_Center: {x: 0.0015649498, y: 0.007021606, z: 0.012570053}
+  m_Size: {x: 0.13571918, y: 0.29172462, z: 0.08464347}
+  m_Center: {x: 0.00010284049, y: -0.0027015598, z: 0.007382642}
 --- !u!1 &2677426192365614282
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +331,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   narrativeSO: {fileID: 11400000, guid: 39706ac2eb52eb8449b3dae0183884db, type: 2}
+  isTheRadio: 0
+  audioSource: {fileID: 0}
 --- !u!1 &4719401540490956496
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +358,7 @@ Transform:
   m_GameObject: {fileID: 4719401540490956496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.244, y: -0.024, z: 0.113}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
