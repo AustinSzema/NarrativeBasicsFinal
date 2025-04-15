@@ -9,6 +9,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Shelf Material
     second: {fileID: 2100000, guid: c6a20b516c2368b49b8ab3c25776a03a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf Shelves
+    second: {fileID: 2100000, guid: 140a871a06e24fb419e9ed4d97f36015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShelfLegs
+    second: {fileID: 2100000, guid: 8b27d527726c76c4b9fac0c142bae6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelfRivets
+    second: {fileID: 2100000, guid: bdd1d242945e32241b52fe9f3680ac0c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
