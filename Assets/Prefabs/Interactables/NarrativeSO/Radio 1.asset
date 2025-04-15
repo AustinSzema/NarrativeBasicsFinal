@@ -13,8 +13,5 @@ MonoBehaviour:
   m_Name: Radio 1
   m_EditorClassIdentifier: 
   staminaCost: 20
-  description: '*EMERGENCY TONE* "This is an emergency broadcast. A nuclear bomb
-    has devastated the area. Atmospheric radiation levels have reached 10,000 millirems.
-    Radiaton poisoning is life threatening and is fatal within weeks. Seek Shelter
-    immediately."'
+  description: Gotta listen for the sound of the radio changing stations
   isRadio: 1

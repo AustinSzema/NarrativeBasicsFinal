@@ -89,13 +89,13 @@ public class GrabDetection : MonoBehaviour
         if (narrativeSO != null)
         {
             // Show description text when hovering, without reducing stamina
-            //NarrativeTextSingleton.Instance.SetHighlightText(narrativeSO.GetObjectInfo());
+            NarrativeTextSingleton.Instance.SetHighlightText(narrativeSO.GetObjectInfo());
         }
     }
 
     private void OnHoverExit(HoverExitEventArgs args)
     {
         Debug.Log($"{gameObject.name} highlight done");
-        //NarrativeTextSingleton.Instance.ClearHighlightText();
+        NarrativeTextSingleton.Instance.ClearHighlightText();
     }
 }
