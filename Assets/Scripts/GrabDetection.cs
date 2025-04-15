@@ -41,42 +41,58 @@ public class GrabDetection : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        if (canGrab)
+        if (!NarrativeTextSingleton.Instance.isFading)
         {
-            
-            Debug.Log($"{gameObject.name} grabbed by {args.interactorObject.transform.name}");
-            if (narrativeSO != null)
+         
+            if (canGrab)
             {
-                if (!grabbedBefore)
+            
+                Debug.Log($"{gameObject.name} grabbed by {args.interactorObject.transform.name}");
+                if (narrativeSO != null)
                 {
-                    StaminaMeter.Instance.ReduceStamina(narrativeSO.staminaCost);
-                    grabbedBefore = true;
+                    if (!grabbedBefore)
+                    {
+                        StaminaMeter.Instance.ReduceStamina(narrativeSO.staminaCost);
+                        grabbedBefore = true;
+                    }
+                    NarrativeTextSingleton.Instance.SetText(narrativeSO.description, narrativeSO.staminaCost);
                 }
-                NarrativeTextSingleton.Instance.SetText(narrativeSO.description, narrativeSO.staminaCost);
             }
+            canGrab = false;
+            if (audioSource)
+            {
+                audioSource.Play();
+            }   
         }
-        canGrab = false;
-        audioSource.Play();
 
     }
 
     private bool dayIsOver = false;
     private void OnRelease(SelectExitEventArgs args)
     {
-        canGrab = true;
-        NarrativeTextSingleton.Instance.ClearText();
-        if (!dayIsOver)
+        if (!NarrativeTextSingleton.Instance.isFading)
         {
-            Debug.Log($"{gameObject.name} released");
-     
-            if (StaminaMeter.Instance.stamina <= 0)
+            canGrab = true;
+            NarrativeTextSingleton.Instance.ClearText();
+            if (!dayIsOver)
             {
-                canGrab = false;
-                dayIsOver = true;
-                NarrativeTextSingleton.Instance.StartNextDay();   
+                Debug.Log($"{gameObject.name} released");
+     
+                if (StaminaMeter.Instance.stamina <= 0)
+                {
+                    canGrab = false;
+                    dayIsOver = true;
+                
+                    NarrativeTextSingleton.Instance.StartNextDay();   
+                }
             }
+
+            if (audioSource)
+            {
+                audioSource.Stop();
+            }
+
         }
-        audioSource.Stop();
 
     }
 

@@ -13,6 +13,9 @@ public class NarrativeTextSingleton : MonoBehaviour{
 
     public FadeToColor nextSceneTransition;
 
+
+    public bool isFading = false;
+    
     private bool isGrabbed = false; //Don't double display text, if we're grabbing it dont show the object info from the highlight
 
     public void Awake(){
@@ -51,6 +54,7 @@ public class NarrativeTextSingleton : MonoBehaviour{
 
     public void StartNextDay()
     {
+        isFading = true;
         
         if(DayManagerSingleton.Instance.day >= DayManagerSingleton.Instance.lastDay){
             nextSceneTransition.FadeImage(SceneManager.GetActiveScene().buildIndex+1); // set the second scene to be the same as the default room but nothing is interactable except the vault door
