@@ -22530,8 +22530,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b9b6fd149190da84f93bd26127e40a3c, type: 3}
   - {fileID: 8300000, guid: e4107461d0048674cb6d7fea52b99bca, type: 3}
   - {fileID: 8300000, guid: d215e2067e9260a409a86d7824ae7e79, type: 3}
-  minTimeBetweenEffects: 10
-  maxTimeBetweenEffects: 15
+  minTimeBetweenEffects: 200
+  maxTimeBetweenEffects: 300
   effectVolumeRange: {x: 0.5, y: 1}
   duckAmbientVolume: 1
   duckAmount: 0.3
@@ -26038,7 +26038,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: cc468451e4abb11498a802506df036cc, type: 3}
 --- !u!4 &1921271690 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7677da931c556c242bad586032f7ac09, type: 3}
+  m_CorrespondingSourceObject: {fileID: -9158135124904211863, guid: 7677da931c556c242bad586032f7ac09, type: 3}
   m_PrefabInstance: {fileID: 1037402641}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1925388461
