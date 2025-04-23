@@ -11,7 +11,7 @@ public class FadeToColor : MonoBehaviour
         // Auto-find OVRScreenFade if not assigned in Inspector
         if (screenFade == null)
         {
-            screenFade = FindObjectOfType<OVRScreenFade>();
+            screenFade = FindFirstObjectByType<OVRScreenFade>(FindObjectsInactive.Include);
             if (screenFade == null)
             {
                 Debug.LogError("OVRScreenFade not found in the scene! Make sure it's attached to the XR Camera.");
