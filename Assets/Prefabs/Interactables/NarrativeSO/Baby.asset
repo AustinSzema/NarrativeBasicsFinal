@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Baby
   m_EditorClassIdentifier: 
   staminaCost: 7
-  description: It's a baby doll. It has "M.M" embroidered on it's butt
+  description: It's a baby doll. It has "M.M" embroidered on its butt
   isRadio: 0

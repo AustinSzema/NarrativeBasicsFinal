@@ -37,11 +37,21 @@ public class FadeToColor : MonoBehaviour
         }
     }
     
-    public void FadeImage(bool quit)
+
+    // Fade Out and Load Scene
+    public void FadeImage(bool quit, bool isOpen)
     {
         if (screenFade != null)
         {
-            screenFade.FadeOut();
+            if (isOpen)
+            {
+                screenFade.fadeColor = Color.white;
+            }
+            else
+            {
+                screenFade.fadeColor = Color.black;
+            }
+            StartCoroutine(FadeAndLoadScene(quit));
         }
     }
 
@@ -53,5 +63,14 @@ public class FadeToColor : MonoBehaviour
         yield return new WaitForSeconds(screenFade.fadeTime + 0.2f);
 
         SceneManager.LoadScene(index);
+    }
+    private IEnumerator FadeAndLoadScene(bool quit)
+    {
+        screenFade.FadeOut();
+        
+        // Wait for fade to finish before changing scene
+        yield return new WaitForSeconds(screenFade.fadeTime + 0.5f);
+
+        Application.Quit();
     }
 }
