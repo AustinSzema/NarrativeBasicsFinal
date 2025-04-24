@@ -36,6 +36,14 @@ public class FadeToColor : MonoBehaviour
             StartCoroutine(FadeAndLoadScene(index));
         }
     }
+    
+    public void FadeImage(bool quit)
+    {
+        if (screenFade != null)
+        {
+            screenFade.FadeOut();
+        }
+    }
 
     private IEnumerator FadeAndLoadScene(int index)
     {
