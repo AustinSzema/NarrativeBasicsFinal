@@ -64,9 +64,9 @@ public class AmbientAudioManager : MonoBehaviour
 
     void Update()
     {
-        if (DayManagerSingleton.Instance.day > 0)
+        if (DayManagerSingleton.Instance.day > 1)
         {
-            if (Time.time >= nextEffectTime && soundEffects.Length > 0)
+            if (Time.time >= (nextEffectTime/DayManagerSingleton.Instance.day) && soundEffects.Length > 0)
             {
                 PlayRandomEffect();
                 ScheduleNextEffect();
@@ -77,7 +77,6 @@ public class AmbientAudioManager : MonoBehaviour
     private void ScheduleNextEffect()
     {
         nextEffectTime = Time.time + Random.Range(minTimeBetweenEffects, maxTimeBetweenEffects);
-        nextEffectTime = nextEffectTime / DayManagerSingleton.Instance.day;
     }
 
     private void PlayRandomEffect()
